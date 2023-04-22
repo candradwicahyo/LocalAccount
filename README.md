@@ -12,7 +12,7 @@ Dengan demikian, program ini dapat membantu pengguna untuk membuat akun dengan p
 
 kode sudah saya sertakan dengan komentar supaya kalian bisa mempelajarinya.
 
-> deskripsi ini dibuatkan oleh CHATGPT :)
+> deskripsi dibuat oleh **chatGPT**
 
 ## dibuat dengan berikut
 
