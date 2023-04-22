@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.7.2/sweetalert2.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+  <title>LocalAccount</title>
+</head>
+<body>
+  
+  <div class="container">
+    
+    <!-- form login -->
+    <div class="box box-login">
+      <h3 class="title">Form Login</h3>
+      <form class="form">
+        <div class="form-group">
+          <label for="username_login" class="label">Username</label>
+          <input 
+            type="text" 
+            id="username_login" 
+            class="input input_username_login"
+            placeholder="Username">
+        </div>
+        <div class="form-group">
+          <label for="password_login" class="label">Password</label>
+          <div class="input-wrapper">
+            <input 
+              type="password" 
+              id="password_login" 
+              class="input input-password input_password_login"
+              placeholder="Enter password">
+              <i class="fa-solid fa-eye" id="icon"></i>
+          </div>
+        </div>
+        <button class="button btn-login">Login</button>
+      </form>
+      <span class="text">don't have an account? <a href="" class="link link-login">click here</a></span>
+    </div>
+    
+    <!-- form register -->
+    <div class="box box-register">
+      <h3 class="title">Form Register</h3>
+      <form class="form">
+        <div class="form-group">
+          <label for="username_register" class="label">Username</label>
+          <input 
+            type="text" 
+            id="username_register" 
+            class="input input_username_register" 
+            placeholder="Username">
+        </div>
+        <div class="form-group">
+          <label for="password_register" class="label">Password</label>
+          <div class="input-wrapper">
+            <input 
+              type="password" 
+              id="password_register" 
+              class="input input-password input_password_register" 
+              placeholder="Enter password">
+            <i class="fa-solid fa-eye" id="icon"></i>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="confirm_password_register" class="label">Confirmation Password</label>
+          <div class="input-wrapper">
+            <input 
+              type="password" 
+              id="confirm_password_register" 
+              class="input input-password input_confirm_password" 
+              placeholder="Confirm your password">
+            <i class="fa-solid fa-eye" id="icon"></i>
+          </div>
+        </div>
+        <button class="button btn-register">Register</button>
+      </form>
+      <span class="text">already have an account? <a href="" class="link link-register">click here</a></span>
+    </div>
+    
+  </div>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.7.2/sweetalert2.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
